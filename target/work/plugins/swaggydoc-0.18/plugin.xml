@@ -1,0 +1,13 @@
+<plugin name='swaggydoc' version='0.18' grailsVersion='2.2 &gt; *'>
+  <author>Rahul Somasunderam</author>
+  <authorEmail>rahul.som@gmail.com</authorEmail>
+  <title>Swaggydoc Plugin</title>
+  <description>Uses swagger to document Grails Controllers
+</description>
+  <documentation>https://rahulsom.github.io/swaggydoc</documentation>
+  <type>SwaggydocGrailsPlugin</type>
+  <resources>
+    <resource>com.github.rahulsom.swaggydoc.ApiController</resource>
+    <resource>com.github.rahulsom.swaggydoc.SwaggyDataService</resource>
+  </resources>
+</plugin>
